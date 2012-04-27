@@ -3,8 +3,8 @@
 
     <PreferenceCategory android:title="Communication settings" >
         <EditTextPreference
-            android:defaultValue="5"
-            android:key="refresh"
+            android:defaultValue="10"
+            android:key="updateInterval"
             android:summary="How often the data is refreshed (minutes)"
             android:title="Refresh" />
     </PreferenceCategory>
@@ -14,7 +14,7 @@
             android:title="Minimum level"
             android:summary="Minimum level for notifications"
             android:key="listPref"
-            android:defaultValue="digiGreen"
+            android:defaultValue="1"
             android:entries="@array/levelNames"
             android:entryValues="@array/levelValues" />
         <CheckBoxPreference
