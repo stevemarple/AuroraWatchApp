@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Communication settings" >
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="updateInterval"
+            android:summary="How often the data is refreshed (minutes)"
+            android:title="Refresh" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Levels" >
+        <ListPreference
+            android:title="Minimum level"
+            android:summary="Minimum level for notifications"
+            android:key="listPref"
+            android:defaultValue="1"
+            android:entries="@array/levelNames"
+            android:entryValues="@array/levelValues" />
+        <CheckBoxPreference
+            android:title="Decreasing notifications"
+            android:summary="Notify when geomagnetic activity level decreases"
+            android:defaultValue="false"
+            android:key="notifyDown" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
