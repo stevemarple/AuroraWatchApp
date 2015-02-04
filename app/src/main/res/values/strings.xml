@@ -10,5 +10,6 @@
     <string name="aurorawatchLogoDesc">AuroraWatch UK logo</string>
     <string name="startService">Start service</string>
     <string name="showApp">Show AuroraWatch UK</string>
+    <string name="license">AuroraWatch UK alerts data is provided by Lancaster University, UK using data from the SAMNET and/or AuroraWatchNet magnetometer networks.</string>
 
 </resources>
