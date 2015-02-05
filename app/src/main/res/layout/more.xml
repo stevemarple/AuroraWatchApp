@@ -48,7 +48,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/faq"
-            android:id="@+id/button"
+            android:id="@+id/faqButton"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
 
@@ -68,7 +68,8 @@
             android:id="@+id/twitterButton"
             android:layout_gravity="center_vertical"
             android:src="@drawable/twitter"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -76,7 +77,8 @@
             android:id="@+id/facebookButton"
             android:layout_gravity="center_vertical"
             android:src="@drawable/facebook"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -84,7 +86,8 @@
             android:id="@+id/flickrButton"
             android:layout_gravity="center_vertical"
             android:src="@drawable/flickr"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter" />
     </LinearLayout>
 
 </LinearLayout>
