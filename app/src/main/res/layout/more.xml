@@ -9,24 +9,49 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="75">
+        android:layout_weight="60">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/appName"
-            android:id="@+id/appTitle"
-            android:layout_margin="20dp"
-            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/license"
-            android:id="@+id/appLicense"
-            android:layout_margin="20dp" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/appName"
+            android:id="@+id/appTitle"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/awUrlButton"
+            android:id="@+id/awUrlButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/faq"
+            android:id="@+id/button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -61,4 +86,5 @@
             android:src="@drawable/flickr"
             android:layout_margin="10dp" />
     </LinearLayout>
+
 </LinearLayout>
