@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">AuroraWatch UK</string>
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+    <string name="aboutMessage">Get notifications when aurora may be visible in the UK, using information provided by AuroraWatch UK. Android app written by Steve Marple.</string>
+    <string name="exit">Exit</string>
+    <string name="awUrl">http://aurorawatch.lancs.ac.uk/</string>
+    <string name="aurorawatchLogoDesc">AuroraWatch UK logo</string>
+    <string name="startService">Start service</string>
+    <string name="showApp">Show AuroraWatch UK</string>
+    <string name="license">AuroraWatch UK alerts data is provided by Lancaster University, UK using data from the SAMNET and/or AuroraWatchNet magnetometer networks.</string>
+    <string name="awUrlButton">AuroraWatch UK Website</string>
+    <string name="faq">FAQs</string>
+</resources>
